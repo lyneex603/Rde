@@ -1,0 +1,14 @@
+name: HexaStaffChat
+version: 1.0.0
+main: hexa.staffchat.StaffChatPlugin
+api-version: '1.21'
+description: Staff-only chat
+commands:
+  sc:
+    description: Чат для стаффа
+    usage: /sc [сообщение]
+    aliases: [staffchat]
+permissions:
+  hexa.staffchat:
+    description: Видеть чат стаффа и писать в него
+    default: op
